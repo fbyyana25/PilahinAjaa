@@ -14,7 +14,7 @@ tanggal = st.sidebar.date_input("Tanggal:")
 
 # Tombol untuk menyimpan data
 if st.sidebar.button("Simpan Data"):
-    data= {'Jenis Sampah': [jenis_sampah],'Jumlah (kg)': [Jumlah Sampah],'Tanggal': [Tanggal]}
+    data = {'Jenis Sampah': [jenis_sampah], 'Jumlah (kg)': [Jumlah Sampah], 'Tanggal': [Tanggal]}
     df = pd.DataFrame(data)
     st.sidebar.successs("Data berhasil disimpan!")
 
