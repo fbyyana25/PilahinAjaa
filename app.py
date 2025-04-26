@@ -84,6 +84,8 @@ def tampilkan_kuis():
     else:
         st.warning("Tingkatkan lagi pengetahuanmu tentang pemilahan dan pengolahan sampah!")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
+    # Kode yang ingin anda jalankan hanya saat fule di eksekusi langsung
+    pass # Ganti 'pass' dengan kode anda
     main()
         
