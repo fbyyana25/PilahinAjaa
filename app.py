@@ -21,7 +21,7 @@ if. st.sidebar.button("Simpan Data"):
 # Menampilkan informasi pengolahan(contoh sederhana)
 st.header("Informasi Pengolahan")
 if jenis sampah=="Organik":
-    st.info(Sampah organik dapat diolah menjadi kompos atau biogas.")
+    st.info("Sampah organik dapat diolah menjadi kompos atau biogas.")
 elif jenis_sampah == "Anorganik":
     st.info("Sampah anorganik seperti plastik,kertas,dan logam dapat didaur ulang.")
     
