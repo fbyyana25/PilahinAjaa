@@ -16,7 +16,7 @@ tanggal = st.sidebar.date_input("Tanggal:")
 if st.sidebar.button("Simpan Data"):
     data = {'Jenis Sampah': [jenis_sampah], 'Jumlah (kg)': [jumlah_sampah], 'Tanggal': [tanggal]}
     df = pd.DataFrame(data)
-    st.sidebar.successs("Data berhasil disimpan!")
+    st.sidebar.success("Data berhasil disimpan!")
 
 # Menampilkan informasi pengolahan(contoh sederhana)
 st.header("Informasi Pengolahan")
