@@ -13,14 +13,14 @@ jumlah_sampah = st.sidebar.number_input("Jumlah(kg):", min_value=0.1, Step = 0.1
 tanggal = st.sidebar.date_input("Tanggal:")
 
 # Tombol untuk menyimpan data
-if. st.sidebar.button("Simpan Data"):
-    data={'Jenis Sampah':[jenis_sampah],'Jumlah(kg)':[Jumlah Sampah],'Tanggal':[Tanggal]}
+if st.sidebar.button("Simpan Data"):
+    data= {'Jenis Sampah':[jenis_sampah],'Jumlah(kg)':[Jumlah Sampah],'Tanggal':[Tanggal]}
     df = pd.DataFrame(data)
     st.sidebar.successs("Data berhasil disimpan!")
 
 # Menampilkan informasi pengolahan(contoh sederhana)
 st.header("Informasi Pengolahan")
-if jenis sampah=="Organik":
+if jenis sampah == "Organik":
     st.info("Sampah organik dapat diolah menjadi kompos atau biogas.")
 elif jenis_sampah == "Anorganik":
     st.info("Sampah anorganik seperti plastik,kertas,dan logam dapat didaur ulang.")
