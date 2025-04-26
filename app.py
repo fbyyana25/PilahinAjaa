@@ -9,7 +9,7 @@ st.title("Aplikasi Pemilah Dan Pengolahan Sampah")
 # Sidebar untuk input jenis sampah
 st.sidebar.header("Masukkan Jenis Sampah")
 jenis_sampah = st.sidebar.selectbox("Jenis Sampah:",["Organik","Anorganik"])
-jumlah_sampah = st.sidebar.number_input("Jumlah(kg):", min_value=0.1, Step = 0.1)
+jumlah_sampah = st.sidebar.number_input("Jumlah(kg):", min_value=0.1, Step =1)
 tanggal = st.sidebar.date_input("Tanggal:")
 
 # Tombol untuk menyimpan data
